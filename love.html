@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сердечко и текст</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .heart {
+            font-size: 100px;
+            color: red;
+            animation: pulse 1s infinite;
+        }
+        .message {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">❤️</div>
+    <div class="message">Даша=Невероятная!</div>
+</body>
+</html>
